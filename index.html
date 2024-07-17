@@ -9,12 +9,12 @@
 </head>
 <body class="bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first w-[70%]">
+        <div class="first w-[70%] h-screen sticky top-0 pr-6">
             <div class="logo invert my-[6px]">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 mx-auto hover:bg-[#DFDCD8] rounded-full p-2 box-content r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
             </div>
             <div class="sidebar flex justify-end">
-                <ul class="flex flex-col text-2xl space-y-3 w-1/2 font-bold mr-10">
+                <ul class="flex flex-col text-2xl w-1/2 font-bold mr-10">
                     <li class="flex justify-start items-center gap-3 w-fit mr-4 hover:bg-[#202327] hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> home </span> 
                         <span class="hidden md:block">Home</span>
@@ -49,6 +49,31 @@
                     </li> 
                 </ul>
             </div>
+            <div class="postbtn flex justify-end">
+                <button
+                    class="bg-[#1d9bf0] px-6 text-xl rounded-full py-3 px-[90px] box-content mt-3 text-white font-bold">Post</button>
+            </div>
+
+            <div class="profile box-content my-6 items-center gap-3 flex justify-end rounded-full w-full cursor-pointer">
+                <div class="flex gap-2 pr-4">
+
+                    <div class=""><img class="w-12 h-12 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1492379791491989508/REWVS-Ai_400x400.jpg"
+                            alt="Mainul"></div>
+                    <div class="">
+                        <div>Mainul islam</div>
+                        <div class="text-gray-500">@Mainuli96601040</div>
+                    </div>
+                </div>                    
+
+                <div class="p3 text-sm text-gray-200 flex justify-between">
+                    <span class="hover:text-[#1886d0] text-m text-gray-200 material-symbols-outlined">
+                        more_horiz
+                    </span>
+                </div>
+
+            </div>
+
         </div>
         <div class="second w-full border-[1px] border-y-black border-[#202327]">
             <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80 border-b-[1px] border-[#202327]">
@@ -95,7 +120,7 @@
                         </div>
                         <div class="postbtn">
                             <button
-                                class="bg-[#1d9bf0] px-6 mx-5 text-sm rounded-full py-2 text-white font-bold">Post</button>
+                                class="bg-[#1d9bf0] px-6 text-sm rounded-full py-2 text-white font-bold">Post</button>
                         </div>
 
                     </div>
@@ -815,7 +840,7 @@
             <div class="who top-0 m-3 w-2/3 pt-5 rounded-xl space-y-3 border-[1px] border-[#202327]">
                 <h1 class="text-xl font-bold px-3">Who to follow</h1>
 
-                <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -833,7 +858,7 @@
 
                 </div>
                 
-                <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -851,7 +876,7 @@
 
                 </div>
 
-                <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -869,7 +894,7 @@
 
                 </div>
 
-                <!-- <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <!-- <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -887,7 +912,7 @@
 
                 </div> -->
 
-                <!-- <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <!-- <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -905,7 +930,7 @@
 
                 </div> -->
 <!-- 
-                <div class="item p-3 items-center gap-2 flex justify-between hover:bg-[#202327] cursor-pointer">
+                <div class="item p-3 items-center gap-3 flex justify-between hover:bg-[#202327] cursor-pointer">
                     <div class="flex gap-3">
 
                         <div class="p1"><img class="w-12 h-12 rounded-full"
@@ -928,7 +953,7 @@
                 </div>                
             </div>
             
-            <div class="terms sticky top-[84vh] m-3 text-xs text-[#62676b] px-3  w-2/3 py-5 space-y-1">
+            <div class="terms m-3 text-xs text-[#62676b] px-3  w-2/3 py-5 space-y-1">
                 <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
                 <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
                 <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
